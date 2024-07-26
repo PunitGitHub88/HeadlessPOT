@@ -6,11 +6,11 @@ const refreshApi = "http://localhost:3000/pif/api/session/refresh?appId=239";
 const userApi = "http://localhost:3000/pif/api/user/v1/get-user?appId=239";
 const statusApi = "http://localhost:3000/pif/api/status/v1/get-status?appId=239";
 
-const dummyproductdetail = "https://dummyjson.com/c/c798-bc76-46d3-aa9e";
-const dummyproductprice = "https://dummyjson.com/c/3874-ddca-4cd1-814b";
-const dummyatpcall = "https://dummyjson.com/c/2726-894c-4fa5-ba7b";
+const productdetailApi = "https://dummyjson.com/c/c798-bc76-46d3-aa9e";
+const productpriceApi = "https://dummyjson.com/c/3874-ddca-4cd1-814b";
+const atpApi = "https://dummyjson.com/c/2726-894c-4fa5-ba7b";
 
 
-export { contactApi, detailsApi, toolsApi, refreshApi, userApi, statusApi, dummyproductdetail, dummyproductprice, dummyatpcall };   
+export { contactApi, detailsApi, toolsApi, refreshApi, userApi, statusApi, productdetailApi, productpriceApi, atpApi };   
 
 
