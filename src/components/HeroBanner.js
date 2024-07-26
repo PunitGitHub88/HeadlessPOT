@@ -24,13 +24,12 @@ export default function HeroBanner({ bannerData }) {
       )}
       <div className="bannertext">
         {header && (
-          <h1 className="header1">
+          <h1 className="header1" dangerouslySetInnerHTML={{ __html: header }}>
 
          {/*<span className="text-red">A SAFER</span>
             <span className="text-red">MORE</span>
             <span className="text-red">CONFIDENT</span>
             <span className="text-white">WELCOME BACK</span> */}
-            <div dangerouslySetInnerHTML={{ __html: header }} />
           </h1>
         )}
         {bannerText && (
