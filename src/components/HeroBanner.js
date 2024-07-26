@@ -33,7 +33,7 @@ export default function HeroBanner({ bannerData }) {
           </h1>
         )}
         {bannerText && (
-          <div className="text-white para" dangerouslySetInnerHTML={{ __html: bannerText }} />
+          <div dangerouslySetInnerHTML={{ __html: bannerText }} />
         )}
       </div>
     </div>
